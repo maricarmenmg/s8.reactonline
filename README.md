@@ -46,8 +46,6 @@ Datos a mostrar de cada nave del listado:
 En este ejercicio debes crear la ficha de cada nave, mostrando todos sus detalles.
 
 El usuario/a podrá acceder a los detalles de cada nave clicando en cada una de las naves del listado:
-
-- **Número de páginas * el número de idiomas * 30 €**
   
 
 ![Ejercicio 2](./src/images/readme/ejercicio-02.png)

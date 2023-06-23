@@ -1,8 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    './index.html',
+    './src/**/*.{js,jsx,ts,tsx}',
   ],
   theme: {
     extend: {
@@ -52,6 +52,18 @@ export default {
           '900': '#0f2717',
           
         },
+        project: {
+          100: '#FFE81F',
+          200: '#D8F15F',
+          300: '#CFE75D',
+          400: '#303030',
+          500: '#0043ff',
+          600: '#f2f2f2',
+          700: '#85953A',
+          800: '#adc24e',
+          900: '#1742bb',
+        
+        },
       },
       boxShadow: {
         xs: '0 0 0 1px rgba(0, 0, 0, 0.16)',
@@ -81,7 +93,7 @@ export default {
         '1/1': '100%',
       },
       fontFamily: {
-        inter: ['Inter', 'sans-serif'],
+        prompt: ['Prompt', 'sans-serif'],
         sora:  ['Sora',  'sans-serif'],
       },
       fontSize: {
@@ -164,5 +176,6 @@ export default {
     },
   },
   plugins: [
+    require('@tailwindcss/forms'),
   ],
 };
