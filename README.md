@@ -1,6 +1,6 @@
 # Sprint 8. React III 
 
-![Descripción](./src/images/readme/screenshot.png)
+![Descripción](./src/assets/images/readme/screenshot.png)
 
 ### ****[Live Site]( https://react-sprint8.netlify.app/)****
 
@@ -36,9 +36,9 @@ Datos a mostrar de cada nave del listado:
 - Modelo.
 
 
-![Ejercicio 2](./src/images/readme/ejercicio-01.png)
+![Ejercicio 2](./src/assets/images/readme/ejercicio-01.png)
 
- - [ ] 📪 Entregado
+ - [x] 📬 Entregado
 
 
 #### Ejercicio 2
@@ -48,7 +48,7 @@ En este ejercicio debes crear la ficha de cada nave, mostrando todos sus detalle
 El usuario/a podrá acceder a los detalles de cada nave clicando en cada una de las naves del listado:
   
 
-![Ejercicio 2](./src/images/readme/ejercicio-02.png)
+![Ejercicio 2](./src/assets/images/readme/ejercicio-02.png)
 
 
 - [ ] 📪 Entregado
