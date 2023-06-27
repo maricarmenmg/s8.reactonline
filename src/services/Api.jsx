@@ -1,20 +1,33 @@
-// Importa la función 'axios' para realizar las solicitudes HTTP
 import axios from 'axios';
 
-// Define la URL base de la API
-const baseURL = 'https://swapi.dev/api';
+const BASE_URL = 'https://swapi.dev/api';
+const IMAGES_GUIDE_URL = 'https://starwars-visualguide.com/assets/img';
 
-// Función para obtener el listado de naves
 export const obtenerListadoNaves = async () => {
   try {
-    // Realiza una solicitud GET a la API para obtener el listado de naves
-    const response = await axios.get(`${baseURL}/starships/`);
-
-    // Retorna los datos de las naves obtenidos de la respuesta
-    return response.data.results;
+    const response = await axios.get(`${BASE_URL}/starships/`);
+    const starships = response.data.results.map((starship) => ({
+      ...starship,
+      id: starship.url.split('/').filter(Boolean).pop(),
+    }));
+    return starships;
   } catch (error) {
-    // Maneja cualquier error que ocurra durante la solicitud
     console.error('Error al obtener el listado de naves:', error);
     throw error;
   }
 };
+
+export const obtenerDetalleNave = async (id) => {
+  try {
+    const response = await axios.get(`${BASE_URL}/starships/${id}/`);
+    const starship = response.data;
+    return starship;
+  } catch (error) {
+    console.error(`Error al obtener los detalles de la nave con ID ${id}:`, error);
+    throw error;
+  }
+};
+
+export const obtenerImagenNave = (starshipId) => {
+  return `${IMAGES_GUIDE_URL}/starships/${starshipId}.jpg`
+}

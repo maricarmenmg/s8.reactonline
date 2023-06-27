@@ -26,10 +26,8 @@ function PageNotFound() {
                 </div>
                 {/* 404 content */}
                 <h2 className="h2 mb-4 font-normal  font-sora leading-tight">Te has equivocado de página, ¿eh?</h2>
-                <h2>Wrong page you have come hmm?
-Fear not!
-Show you the way, the force will!</h2>
-                <p className="font-sora text-2xl text-gray-600 text-center mt-10">Si quieres volver a la página de  <Link to="/" className="text-project-500 hover:text-gray-500 ">🏡 inicio</Link> que existe, o prueba a verificar la URL.</p>
+                <h4 className="h4 mb-4 font-normal  font-sora leading-tight">¡No temáis! <br/>¡Mostrarte el <Link to="/" className="text-project-500 hover:text-gray-500 ">camino</Link>, la fuerza hará!</h4>
+                
               </div>
             </div>
           </div>

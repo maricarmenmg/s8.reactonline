@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+
 
 import HeroImage from '../assets/images/hero/princess-leia.png';
 
@@ -21,15 +21,7 @@ import HeroImage from '../assets/images/hero/princess-leia.png';
               <p className="font-prompt  text-xl text-gray-600 mb-10" data-aos="fade-right" data-aos-delay="200">
               Nuestro objetivo es ayudarte a construir una presencia digital efectiva para tu negocio.
               </p>
-              {/* Buttons */}
-              <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4 mb-12 md:mb-20">
-                <div>
-                  <Link className="btn text-white bg-project-500 hover:bg-blue-600 w-full shadow-sm" to="/budget">
-                    Solicita tu presupuesto
-                  </Link>
-                </div>
-  
-              </div>
+              
    
             </div>
             {/* Image */}

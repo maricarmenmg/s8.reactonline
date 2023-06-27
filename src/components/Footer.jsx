@@ -18,17 +18,17 @@ export default function Footer() {
 
           </li>
           <li>
-              <a href="/startships" className="mr-4 hover:underline md:mr-6">STARSHIPS</a>
+              <a href="/startships" className="font-prompt text-project-100 mr-4 hover:underline md:mr-6">NAVES</a>
           </li>
           <li>
-              <a href="*" className="mr-4 hover:underline md:mr-6 ">STARSHIPS</a>
+              <a href="*" className="font-prompt  text-project-100 m mr-4 hover:underline md:mr-6 ">PERSONAJES</a>
           </li>
           <li>
-              <a href="https://medium.com/" className="mr-4 hover:underline md:mr-6">STARSHIPS</a>
+          <a href="*"  className="font-prompt  text-project-100 m mr-4 hover:underline md:mr-6">PLANETAS</a>
           </li>
   
       </ul>
-      <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 @mcarmenmg</span>
+      <span className="font-prompt text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 @mcarmenmg</span>
   </div>
 </footer>
   );
