@@ -21,7 +21,7 @@ function PageNotFound() {
             <div className="pt-32 pb-12 md:pt-40 md:pb-20">
               <div className="max-w-3xl mx-auto text-center">
                 {/* Top image */}
-                <div className="relative inline-flex flex-col mb-6" data-aos="fade-up">
+                <div className="relative inline-flex flex-col mb-6 aos-init animate-float"  data-aos-delay="400">
                 <img src={NotFoundImage} width="256" height="256" alt="Hero Images" />
                 </div>
                 {/* 404 content */}

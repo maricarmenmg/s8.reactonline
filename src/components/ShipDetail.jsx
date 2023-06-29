@@ -19,6 +19,7 @@ const ShipDetail = () => {
       }
     };
 
+
     fetchStarship();
   }, [id]);
 
@@ -29,19 +30,19 @@ const ShipDetail = () => {
 
   return (
     <section className="relative">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 p-20">
-        <div className="max-w-6xl mx-auto text-center md:pb-10">
-        <div className="py-12 md:py-22">
-        <img className="py-12 md:py-22" src={imgSrc} alt={starship.id} />
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 p-20">
+      <div className="max-w-6xl mx-auto text-center md:pb-8">
+        <div className=" flex justify-center items-center pt-24 rounded-lg ">
+          <img className="" src={imgSrc} alt={starship.id} loading="lazy"/>
         </div>
-          <div className="py-12 md:py-22">
-            <h2 className="h2 font-prompt font-normal pt-20">{starship.name}</h2>
-            <p  className="text-2xl font-prompt font-normal pt-5">Modelo: {starship.model}</p>
-            
-          </div>
+        <div className="py-8 md:py-8 ">
+          <h2 className="h2 font-prompt font-normal pt-8">{starship.name}</h2>
+          <p className="text-2xl font-prompt font-normal pt-2">Modelo: {starship.model}</p>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
+  
   );
 };
 

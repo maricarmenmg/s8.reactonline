@@ -10,15 +10,22 @@
 @import 'additional-styles/utility-patterns.css';
 @import 'additional-styles/theme.css';
 
+html {
+  overflow-y: scroll;
+}
 
 body {
   background-image: url("../assets/images/background.png");
+  background-color:black;
   color:rgb(255, 255, 255);
-  font-family: 'Starjedi', sans-serif;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
- 
+  font-family: 'Prompt', sans-serif;
+  padding: 0px;
+  margin: 0px
 }
+
+
 
