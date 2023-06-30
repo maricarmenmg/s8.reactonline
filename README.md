@@ -51,7 +51,7 @@ El usuario/a podrá acceder a los detalles de cada nave clicando en cada una de 
 ![Ejercicio 2](./src/assets/images/readme/ejercicio-02.png)
 
 
-- [ ] 📪 Entregado
+- [x] 📬 Entregado
 
 
 #### **Ejercicio 3**
@@ -63,7 +63,7 @@ Tienes que implementar un botón al final del listado de naves, con el texto "vi
 **Ayuda:** tendrás que hacer uso de la paginación, recurre a la descripción del proyecto si tienes dudas, ya que existe una breve descripción de la paginación y la URL a implementar.
 
 
- - [ ] 📪 Entregado
+ - [x] 📬 Entregado
 
 
 ####  **Ejercicio 4**
@@ -71,7 +71,7 @@ Tienes que implementar un botón al final del listado de naves, con el texto "vi
 Modernización del sitio. Cambia los estilos que creas pertinentes. El único criterio es que se parezca lo máximo posible en la web oficial de Star Wars.
 
 
- - [ ] 📪 Entregado
+- [x] 📬 Entregado
 
 
 #### **Ejercicio 5**
@@ -83,7 +83,7 @@ Además del botón de acceso en la página principal, el usuario tendrá acceso 
 Para ello, si todavía no has implementado el componente, deberás crear la barra de navegación superior.
 
 
- - [ ] 📪 Entregado
+- [x] 📬 Entregado
 
 
 #### **Ejercicio 6**
@@ -127,18 +127,6 @@ No olvides maquetar esta nueva parte.
 
  - [ ] 📪 Entregado
 
-
-
-#### **Ejercicio 8**
-
-En este ejercicio deberás implementar 3 botones en la parte superior del listado, que efectúan las siguientes tareas:
-
-- Botón ordenar alfabéticamente los presupuestos.
-- Botón ordenar por fecha los presupuestos.
-- Botón reinicializar el orden.
-  
- - [ ]  📪 Entregado
-  
 
 #### **Ejercicio 9**
 

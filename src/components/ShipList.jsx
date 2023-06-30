@@ -60,6 +60,7 @@ const ShipList = () => {
                    <h4 className="h4 font-prompt text-project-100">{starship.name}</h4>
                    <p  className="text-xl font-prompt">Modelo: {starship.model}</p>
                 </Link>
+                
               </div>
             ))}
            
