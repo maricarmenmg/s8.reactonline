@@ -17,7 +17,7 @@ function PageNotFound() {
       <main className="flex-grow">
 
         <section className="relative">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6">
+          <div className="max-w-6xl mx-auto pt-40 sm:px-6">
             <div className="pt-32 pb-12 md:pt-40 md:pb-20">
               <div className="max-w-3xl mx-auto text-center">
                 {/* Top image */}
@@ -25,8 +25,8 @@ function PageNotFound() {
                 <img src={NotFoundImage} width="256" height="256" alt="Hero Images" />
                 </div>
                 {/* 404 content */}
-                <h2 className="h2 mb-4 font-normal  font-sora leading-tight">Te has equivocado de página, ¿eh?</h2>
-                <h4 className="h4 mb-4 font-normal  font-sora leading-tight">¡No temáis! <br/>¡Mostrarte el <Link to="/" className="text-project-500 hover:text-gray-500 ">camino</Link>, la fuerza hará!</h4>
+                <h2 className="h2 mb-4 font-prompt font-semibold leading-tight">Te has equivocado de página, ¿eh?</h2>
+                <h4 className="h4 mb-4 font-prompt font-semibold leading-tight">¡No temáis! <br/>¡Mostrarte el <Link to="/" className="text-project-100 hover:text-gray-500 ">camino</Link>, la fuerza hará!</h4>
                 
               </div>
             </div>

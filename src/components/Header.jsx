@@ -4,7 +4,7 @@ export default function Header() {
 
   return (
 
-<header className="absolute w-full z-30 border-b-2 border-gray-700 bg-black">
+<header className="fixed top-0  w-full z-30 border-b-2 border-gray-700 bg-black ">
 
   <div className="max-w-8xl mx-auto px-6 sm:px-6 py-9 ">
     <div className="flex items-center justify-center">
@@ -25,10 +25,10 @@ export default function Header() {
 
   </div>
 
-  <nav className="">
-    <div className="container text-lg flex items-center justify-center  py-2 mx-auto text-gray-600 capitalize dark:text-gray-300">
-        <Link to="/" className="font-prompt text-gray-400 transition-colors duration-300 transform dark:text-gray-200 mx-1.5 sm:mx-6">INICIO</Link>
-        <Link to="/starships" className="font-prompt text-gray-400 transition-colors duration-300 transform dark:text-gray-200  mx-1.5 sm:mx-6">STARSHIPS</Link>
+  <nav className="font-prompt ">
+    <div className="container text-m flex items-center justify-center  py-2 mx-auto text-gray-600 capitalize dark:text-gray-300">
+        <Link to="/" className="font-prompt text-gray-400 hover:text-gray-100 border-b-2 border-transparent leading-[32px] shadow-2xl shadow-slate-700 hover:border-project-100 transition-colors duration-300 transform dark:text-gray-200 mx-1.5 sm:mx-6">INICIO</Link>
+        <Link to="/starships" className="font-prompt  text-gray-400 hover:text-gray-100 border-b-2 border-transparent leading-[32px] shadow-2xl shadow-slate-700 hover:border-project-100 transition-colors duration-300 transform dark:text-gray-200  mx-1.5 sm:mx-6">STARSHIPS</Link>
     </div>
    </nav>
 
