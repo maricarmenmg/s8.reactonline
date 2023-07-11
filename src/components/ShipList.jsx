@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { obtenerListadoNaves } from '../services/Api';
 
-import LoadingSpinner from './elements/spinner/Spinner';
+import LoadingSpinner from './elements/spinner';
 
 
 const ShipList = () => {
