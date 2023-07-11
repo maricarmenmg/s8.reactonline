@@ -37,7 +37,7 @@ const ShipDetail = () => {
 
   return (
     <section className="relative">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 p-20">
+      <div className="max-w-6xl mx-auto pt-40 sm:px-6 p-4 ">
         <div className="max-w-6xl mx-auto text-center md:pb-8">
           <div className="flex justify-center items-center pt-24 rounded-lg">
 <img src={imgSrc} alt={starship.id} loading="lazy"  onError={handleImageError} />
