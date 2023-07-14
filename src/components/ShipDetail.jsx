@@ -35,15 +35,15 @@ const ShipDetail = () => {
 
   return (
     <section className="relative">
-      <div className="max-w-6xl mx-auto pt-40 sm:px-6 p-4 ">
+      <div className="max-w-6xl mx-auto pt-6 sm:px-6 p-4 ">
         <div className="max-w-6xl mx-auto text-center md:pb-8">
           <div className="flex justify-center items-center pt-24 rounded-lg">
-<img src={imgSrc} alt={starship.id} loading="lazy"  onError={handleImageError} />
+             <img src={imgSrc} alt={starship.id} loading="lazy"  onError={handleImageError} />
       
             
           </div>
           <div className="py-8 md:py-8">
-            <h2 className="h2 font-prompt font-normal pt-8">{starship.name}</h2>
+            <h3 className="h3 font-prompt font-normal pt-8">{starship.name}</h3>
             <p className="text-2xl font-prompt font-normal pt-2">Modelo: {starship.model}</p>
           </div>
         </div>

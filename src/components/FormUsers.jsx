@@ -22,8 +22,8 @@ const Login = () => {
   return (
   <section className="bg-transparent">
 
-    <div className="max-w-6xl mx-auto py-32 sm:px-26">
-      <div className="pt-36 pb-12 md:pt-40 md:pb-20">
+    <div className="max-w-6xl mx-auto py-12 sm:px-26">
+      <div className="pt-6 pb-12 md:pt-6 md:pb-20">
         {/* Page header */}
         <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
           <h3 className="h3 text-project-100 font-prompt">Welcome back <br/>Log In to your account</h3>
@@ -38,7 +38,7 @@ const Login = () => {
                   <input 
                   id="email" 
                   type="email" 
-                  className="form-input w-full text-gray-800" 
+                  className="form-input w-full text-gray-800 bg-project-900" 
                   placeholder="Enter your email address" required 
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
@@ -66,12 +66,12 @@ const Login = () => {
 
                   <div className="flex flex-wrap -mx-3 mt-6">
                     <div className="w-full px-3">
-                      <button className="btn text-white bg-blue-600 hover:bg-blue-700 w-full" onClick={handleLogin}> Sign in </button>
+                      <button className="btn text-project-400 bg-project-100 hover:bg-project-200 w-full" onClick={handleLogin}> Sign In </button>
                     </div>
                   </div>
 
                   <div className="text-gray-600 text-center mt-6">
-                  Don’t you have an account? <Link to="/signup" className="text-blue-600 font-prompt  hover:underline transition duration-150 ease-in-out">Sign up</Link>
+                  Don’t you have an account? <Link to="/signup" className="text-project-100 font-prompt  hover:underline transition duration-150 ease-in-out">Sign Up</Link>
                  </div>
                 </form>
        </div>
@@ -93,6 +93,8 @@ const Register = () => {
     const user = { email, password };
     localStorage.setItem(email, JSON.stringify(user));
     console.log('Registro exitoso');
+    console.log('Email:', email);
+    console.log('Password:', password);
   };
 
 
@@ -100,8 +102,8 @@ const Register = () => {
 
   <section className="bg-transparent">
 
-    <div className="max-w-6xl mx-auto py-32 sm:px-26">
-       <div className="pt-36 pb-12 md:pt-40 md:pb-20">
+    <div className="max-w-6xl mx-auto py-12 sm:px-26">
+       <div className="pt-6 pb-12 md:pt-6 md:pb-20">
 
         {/* Page header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
@@ -147,13 +149,13 @@ const Register = () => {
 
               <div className="flex flex-wrap -mx-3 mt-6">
                 <div className="w-full px-3">
-                  <button className="btn text-white bg-blue-600 hover:bg-blue-700 w-full"  onClick={handleRegister}> Sign up </button>
+                  <button className="btn text-project-500 bg-project-100 hover:bg-project-200 w-full"  onClick={handleRegister}> Sign up </button>
                 </div>
               </div>
 
                                 
               <div className="text-gray-600 text-center mt-6">
-                 You have an account? Log in <Link to="/signin" className="text-blue-600 font-prompt hover:underline transition duration-150 ease-in-out">Sign in</Link>
+                 You have an account? Log in <Link to="/signin" className="text-project-100  font-prompt hover:underline transition duration-150 ease-in-out">Sign In</Link>
               </div>
                  
             </form>

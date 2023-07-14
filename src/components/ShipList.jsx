@@ -50,7 +50,7 @@ const ShipList = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="max-w-6xl mx-auto text-center md:pb-10">
           <div className="py-12 md:py-22">
-            <h3 className="h3 font-prompt font-regular pt-20 ">STARSHIPS</h3>
+            <h2 className="h2 font-prompt font-regular text-gray-300 pt-10 ">STARSHIPS</h2>
           </div>
 
           <div className="grid grid-cols-1 gap-5">
@@ -66,8 +66,8 @@ const ShipList = () => {
            
           </div>
           <div className="max-w-5xl  mt-12">
-          <button  className="w-auto cursor-pointer select-none appearance-none items-center justify-center space-x-5 rounded border border-project-100 bg-project-100 px-3 py-2 text-sm font-prompt font-medium text-gray-900 transition hover:border-blue-800 hover:bg-blue-800 focus:border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-300 disabled:pointer-events-none disabled:opacity-75" 
-          onClick={cargarMasNaves}>CARGAR MÁS NAVES
+          <button  className="w-auto cursor-pointer select-none appearance-none items-center justify-center space-x-5 rounded border border-project-100 bg-project-100 px-3 py-2 text-sm font-prompt font-medium text-gray-900 transition hover:border-project-100 hover:text-project-100 hover:bg-transparent focus:border-project-200 focus:outline-none focus:ring-2 focus:ring-project-300 disabled:pointer-events-none disabled:opacity-75" 
+          onClick={cargarMasNaves}>LOAD MORE SHIPS
           </button>
   
          </div>

@@ -12,7 +12,7 @@ export const obtenerListadoNaves = async (page = 1) => {
     }));
     return starships;
   } catch (error) {
-    console.error('Error al obtener el listado de naves:', error);
+    console.error('Error getting ship lists:', error);
     throw error;
   }
 };
@@ -23,7 +23,7 @@ export const obtenerDetalleNave = async (id) => {
     const starship = response.data;
     return starship;
   } catch (error) {
-    console.error(`Error al obtener los detalles de la nave con ID ${id}:`, error);
+    console.error(`Error getting ship details with ID ${id}:`, error);
     throw error;
   }
 };
