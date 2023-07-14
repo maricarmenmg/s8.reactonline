@@ -108,7 +108,7 @@ Modificaremos ligeramente la navegación, para que cuando no se detecte el usuar
 
 El listado de naves sólo puede ser visible para usuarios/as registrados/as, debes proteger las rutas.
 
-ℹ️ **Com protegir rutes**
+ℹ️ **Cómo proteger las rutas**
 
 **[How to create guarded routes for your React-App](https://blog.netcetera.com/how-to-create-guarded-routes-for-your-react-app-d2fe7c7b6122).**
 
