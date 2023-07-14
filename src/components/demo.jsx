@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'https://swapi.py4e.com/api';
+const BASE_URL = 'https://swapi.dev/api';
 const IMAGES_GUIDE_URL = 'https://starwars-visualguide.com/assets/img';
 
 
@@ -32,8 +32,8 @@ export const obtenerDetalleNave = async (id) => {
 };
 
 export const obtenerImagenNave = (starshipId) => {
-  return `${IMAGES_GUIDE_URL}/starships/${starshipId}.jpg`
-}
+  return `${IMAGES_GUIDE_URL}/starships/${starshipId}.jpg`;
+};
 
 // Pilots
 export const obtenerListadoPilotos = async (page = 1) => {
@@ -48,11 +48,11 @@ export const obtenerListadoPilotos = async (page = 1) => {
     console.error('Error getting pilot lists:', error);
     throw error;
   }
-}
+};
 
 export const obtenerImagenPiloto = (pilotId) => {
-  return `${IMAGES_GUIDE_URL}/characters/${pilotId}.jpg`
-}
+  return `${IMAGES_GUIDE_URL}/characters/${pilotId}.jpg`;
+};
 
 // Films
 export const obtenerListadoPeliculas = async (page = 1) => {
@@ -67,9 +67,8 @@ export const obtenerListadoPeliculas = async (page = 1) => {
     console.error('Error getting film lists:', error);
     throw error;
   }
-}
+};
 
 export const obtenerImagenPelicula = (filmId) => {
-  console.log('film image', filmId);
   return `${IMAGES_GUIDE_URL}/films/${filmId}.jpg`;
 };
