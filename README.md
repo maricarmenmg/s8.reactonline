@@ -125,7 +125,7 @@ En este ejercicio enriqueceremos la ficha de cada nave mostrando las tarjetas de
 No olvides maquetar esta nueva parte.
 
 
- - [ ] 📪 Entregado
+- [x] 📬 Entregado
 
 
 #### **Ejercicio 9**
@@ -134,7 +134,7 @@ Al igual que has hecho anteriormente, tendrás que mostrar las tarjetas de las p
 
 No olvides maquetar esta nueva parte.
 
- - [ ]  📪 Entregado
+- [x] 📬 Entregado
 
 
 ## ****Nivel III ⭐️⭐️⭐️****
