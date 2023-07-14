@@ -93,7 +93,7 @@ Tienes que implementar una pantalla de login y registro, en las que mediante loc
 
 En este ejercicio con el que muestres el resultado del login/registro por consola es suficiente.
 
-- [ ] 📪 Entregado
+- [x] 📬 Entregado
 
 
 ***
