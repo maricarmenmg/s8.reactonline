@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 export default function Footer() {
   return (
     
- <footer className="p-4  md:p-5 lg:p-5 dark:bg-gray-800">
+ <footer className="p-12 m-12 md:p-5 lg:p-5 dark:bg-gray-800">
   <div className="mx-auto max-w-screen-xl text-center">
   {/* Logo */}
   <Link className="flex justify-center items-center text-2xl font-semibold text-gray-900 dark:text-white" to="/" aria-label="logo">
@@ -18,13 +18,13 @@ export default function Footer() {
 
           </li>
           <li>
-              <a href="/startships" className="font-prompt text-m  text-project-100 mr-4 hover:underline md:mr-6">NAVES</a>
+              <a href="/startships" className="font-prompt text-m  text-project-100 mr-4 hover:underline md:mr-6">STARSHIPS</a>
           </li>
           <li>
-              <a href="*" className="font-prompt text-m   text-project-100 m mr-4 hover:underline md:mr-6 ">PERSONAJES</a>
+              <a href="*" className="font-prompt text-m   text-project-100 m mr-4 hover:underline md:mr-6 ">CHARACTERS</a>
           </li>
           <li>
-          <a href="*"  className="font-prompt text-m   text-project-100 m mr-4 hover:underline md:mr-6">PLANETAS</a>
+          <a href="*"  className="font-prompt text-m   text-project-100 m mr-4 hover:underline md:mr-6">PLANETS</a>
           </li>
   
       </ul>

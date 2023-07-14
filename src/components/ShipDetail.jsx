@@ -13,8 +13,6 @@ const ShipDetail = () => {
   };
   
 
-
-
   useEffect(() => {
     const fetchStarship = async () => {
       try {

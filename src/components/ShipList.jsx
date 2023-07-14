@@ -47,7 +47,7 @@ const ShipList = () => {
   
   return (
     <section className="relative">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 p-36">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="max-w-6xl mx-auto text-center md:pb-10">
           <div className="py-12 md:py-22">
             <h3 className="h3 font-prompt font-regular pt-20 ">STARSHIPS</h3>

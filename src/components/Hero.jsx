@@ -5,9 +5,9 @@
     
   return (
 
-    <section className="relative mt-40">
+    <section className="relative ">
       <div className=" absolute inset-0 pointer-events-none -z-10 " aria-hidden="true" />
-      <div className="mx-auto pt-24  pb-8 sm:px-8 bg-black text-light-100 text-center font-prompt ">ALL OF YOUR STAR WARS FAVORITES NOW STREAMING ON DISNEY+</div>
+      <div className="mx-auto pt-4  pb-8 sm:px-8 bg-black text-light-100 text-center font-prompt ">ALL OF YOUR STAR WARS FAVORITES NOW STREAMING ON DISNEY+</div>
       <div className="max-w-7xl mx-auto p-12 sm:px-12  bg-cover bg-no-repeat bg-center bg-[url(https://lumiere-a.akamaihd.net/v1/images/obi-wan-marvel-sashsingle-hero-desktop_6cd9c70f.jpeg?region=0,0,2048,878)]">
         <div className="pt-12 pb-12 md:pt-20 md:pb-10">
           {/* Hero content */}

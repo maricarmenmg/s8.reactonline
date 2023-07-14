@@ -89,7 +89,7 @@ Para ello, si todavía no has implementado el componente, deberás crear la barr
 #### **Ejercicio 6**
 
 
-Tienes que implementar una pantalla de login y registro, en las que mediante localstorage, puesto que no poseemos un servidor de autenticación de usuarios/as, se puedan registrar y alquilar posteriormente en caso de que existan.
+Tienes que implementar una pantalla de login y registro, en las que mediante localstorage, puesto que no poseemos un servidor de autenticación de usuarios/as, se puedan registrar y loguear posteriormente en caso de que existan.
 
 En este ejercicio con el que muestres el resultado del login/registro por consola es suficiente.
 

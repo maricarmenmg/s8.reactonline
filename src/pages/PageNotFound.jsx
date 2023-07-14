@@ -25,9 +25,9 @@ function PageNotFound() {
                 <img src={NotFoundImage} width="256" height="256" alt="Hero Images" />
                 </div>
                 {/* 404 content */}
-                <h2 className="h2 mb-4 font-prompt font-semibold leading-tight">Te has equivocado de página, ¿eh?</h2>
-                <h4 className="h4 mb-4 font-prompt font-semibold leading-tight">¡No temáis! <br/>¡Mostrarte el <Link to="/" className="text-project-100 hover:text-gray-500 ">camino</Link>, la fuerza hará!</h4>
-                
+                <h2 className="h2 mb-4 font-prompt font-semibold leading-tight">Wrong page, huh?</h2>
+                <h4 className="h4 mb-4 font-prompt font-semibold leading-tight">Fear not!
+               Show you the <Link to="/" className="text-project-100 hover:text-gray-500 ">way </Link>, force will do!</h4>
               </div>
             </div>
           </div>
