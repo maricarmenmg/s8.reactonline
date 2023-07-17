@@ -31,9 +31,6 @@ export const obtenerDetalleNave = async (id) => {
   }
 };
 
-export const obtenerImagenNave = (starshipId) => {
-  return `${IMAGES_GUIDE_URL}/starships/${starshipId}.jpg`
-}
 
 // Pilots
 export const obtenerListadoPilotos = async (page = 1) => {
@@ -48,10 +45,6 @@ export const obtenerListadoPilotos = async (page = 1) => {
     console.error('Error getting pilot lists:', error);
     throw error;
   }
-}
-
-export const obtenerImagenPiloto = (pilotId) => {
-  return `${IMAGES_GUIDE_URL}/characters/${pilotId}.jpg`
 }
 
 // Films
@@ -69,7 +62,9 @@ export const obtenerListadoPeliculas = async (page = 1) => {
   }
 }
 
-export const obtenerImagenPelicula = (filmId) => {
-  console.log('film image', filmId);
-  return `${IMAGES_GUIDE_URL}/films/${filmId}.jpg`;
-};
+
+export const obtenerImagenNave = (starshipId) => {
+  return `${IMAGES_GUIDE_URL}/starships/${starshipId}.jpg`
+}
+
+
