@@ -4,6 +4,8 @@
 
 ### ****[Live Site]( https://react-sprint8.netlify.app/)****
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ebcad02b-2569-42b1-9bc1-6b31a665967e/deploy-status)](https://app.netlify.com/sites/react-sprint8/deploys)
+
 ### **🎯 Objetivos generales**
 
 - Aprender a consumir datos de una API en React. 
