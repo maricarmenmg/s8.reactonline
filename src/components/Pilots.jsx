@@ -1,13 +1,25 @@
 
+import { getCharacterImage } from '../services/Api';
+
+
+const PilotImage = ({id}) => {
+  const imgUrl = getCharacterImage(id);
+  return <img src={imgUrl} />;
+
+}
+
+
 const Pilots = ({ pilots }) => {
   if (!pilots || pilots.length === 0) {
     return <div>No pilots found</div>;
   }
 
+
   return (
     <div className="grid grid-cols-1 gap-4 lg:grid-cols-4 lg:gap-8">
       {pilots.map((pilot) => (
         <div className="h-auto rounded-lg p-6 text-white text-left bg-gray-800" key={pilot?.name}>
+        <PilotImage id={pilot.id} />
           <div className="text-lg mt-6 font-bold text-project-100">{pilot?.name}</div>
           <div>Height: {pilot?.height} cm</div>
           <div>Mass: {pilot?.mass} kg</div>

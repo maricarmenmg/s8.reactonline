@@ -2,6 +2,7 @@ import axios from 'axios';
 
 const BASE_URL = 'https://swapi.py4e.com/api';
 const IMAGES_GUIDE_URL = 'https://starwars-visualguide.com/assets/img';
+const IMAGES_PEOPLE_URL = 'https://swapi.dev/api/people/';
 
 
 // List Ships
@@ -68,3 +69,11 @@ export const obtenerImagenNave = (starshipId) => {
 }
 
 
+export function getCharacterImage(id) {
+  return `${IMAGES_GUIDE_URL}/characters/${id}.jpg`; 
+}
+
+
+export function getFilmImage(id) {
+  return `${IMAGES_GUIDE_URL}/films/${id}.jpg`;
+}
